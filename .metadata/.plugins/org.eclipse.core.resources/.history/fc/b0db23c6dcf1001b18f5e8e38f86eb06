@@ -1,0 +1,12 @@
+package com.example.springboottestingexample.service;
+
+import java.util.Optional;
+
+import com.example.springboottestingexample.entity.Customer;
+
+public interface ICustomerService {
+	
+	public Optional<Customer> login(String email, String password);
+	
+
+}

@@ -1,0 +1,12 @@
+package revision020821.threadexample;
+
+public class AdditionImpl implements Addition{
+
+	//lambda expression
+	Addition ad = (a,b) ->(a+b);
+	
+	public static void main(String[] args) {
+		AdditionImpl::add(5,6);
+	}
+
+}

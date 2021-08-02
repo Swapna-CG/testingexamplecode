@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\CapgeminiJA17\SpringBootTestingExample\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+194154748.index
+558841714.index
+3672277000.index
+609769137.index
+3953681182.index
+1086369332.index

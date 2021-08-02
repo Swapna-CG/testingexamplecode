@@ -1,0 +1,5 @@
+package com.example.springboottestingexample.controller;
+
+public class CustomerController {
+
+}

@@ -1,0 +1,5 @@
+package com.example.springboottestingexample.entity;
+
+public class Vendor {
+
+}

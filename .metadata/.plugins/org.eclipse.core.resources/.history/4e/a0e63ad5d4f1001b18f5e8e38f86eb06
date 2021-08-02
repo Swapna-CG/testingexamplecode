@@ -1,0 +1,14 @@
+package com.example.springboottestingexample.exception;
+
+public class CustomerRegistrationException extends Exception {
+
+	public CustomerRegistrationException(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+}

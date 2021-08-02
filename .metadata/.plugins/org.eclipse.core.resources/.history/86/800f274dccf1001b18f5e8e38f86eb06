@@ -1,0 +1,5 @@
+package com.example.springboottestingexample.repository;
+
+public interface CustomerRepository {
+
+}

@@ -1,0 +1,51 @@
+package com.example.springboottestingexample.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.example.springboottestingexample.entity.Vendor;
+
+@Service
+@Transactional
+public class VendorService implements IVendorService{
+
+	@Override
+	public Optional<Vendor> login(String email, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Vendor createVendor(Vendor vendor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Vendor updateVendor(Vendor vendor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Vendor> findAllVendors() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Vendor> findVendorById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteVendorById(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

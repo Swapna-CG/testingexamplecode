@@ -1,0 +1,14 @@
+package revision020821.threadexample;
+
+public class ArithmeticClass {
+	
+	public static void substract(int a,int b) {
+		System.out.println(a-b);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Substraction sub = ArithmeticClass::substract(5,6);
+	}
+
+}

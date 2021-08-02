@@ -1,0 +1,16 @@
+package revision020821.threadexample;
+
+public class AdditionImpl implements Addition{
+
+	public static int add(int a, int b) {
+		// TODO Auto-generated method stub
+		return a+b;
+	}
+	
+	public static void main(String[] args) {
+		AdditionImpl ai = new AdditionImpl();
+		
+		System.out.println(ai::add(20,20));
+	}
+
+}

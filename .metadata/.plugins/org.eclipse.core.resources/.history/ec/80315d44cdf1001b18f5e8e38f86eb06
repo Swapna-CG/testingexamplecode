@@ -1,0 +1,5 @@
+package com.example.springboottestingexample.exception;
+
+public class CustomerRegistrationException extends Exception {
+
+}
